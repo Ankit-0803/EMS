@@ -378,7 +378,7 @@ html {
 }
 
 body {
-  color: #404040;
+  color: #0f0f0f;
   background: white;
   font-size: 1rem;
 }
@@ -409,7 +409,7 @@ h5 {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
     Arial, sans-serif;
   line-height: 1.2;
-  color: #404040;
+  color: #171616;
 }
 
 h1:not(:first-child),
@@ -444,6 +444,7 @@ h4 {
 
 h5 {
   font-size: 1rem;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
@@ -792,11 +793,11 @@ button,
 [type='button'] {
   -webkit-appearance: none;
   display: inline-block;
-  border: 1px solid #0366ee;
-  border-radius: 4px;
-  background: #0366ee;
+  border: 1px solid #000308;
+  border-radius: 5px;
+  background: #0f4cf5;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 800;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
     Arial, sans-serif;
   font-size: 1rem;
@@ -816,8 +817,8 @@ button:hover,
 [type='submit']:hover,
 [type='reset']:hover,
 [type='button']:hover {
-  border: 1px solid #0250bc;
-  background: #0250bc;
+  border: 1px solid #00050c;
+  background: #07e646;
   color: #ffffff;
   text-decoration: none;
 }
